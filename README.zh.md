@@ -4,7 +4,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#技能列表)
-[![Bilingual](https://img.shields.io/badge/EN-中文-purple.svg)](README.md)
 
 [English](README.md) | 简体中文
 
@@ -27,7 +26,6 @@ curl -fsSL https://raw.githubusercontent.com/rockscy/solo-skills/main/install.sh
 | | 大多数 skill 包 | solo-skills |
 |---|---|---|
 | 受众 | "通用工程师" | 独立开发者、一人公司 |
-| 语言 | 仅英文 | EN + 中文（每个技能都有） |
 | 边界 | 只写 "Use when…" | "Use when…" **+ "Do NOT use when…"** |
 | 示例 | 偏抽象 | 每个技能都有 worked input → output |
 | 安装 | 手动复制 | 一行 `curl \| bash` |
@@ -47,8 +45,6 @@ curl -fsSL https://raw.githubusercontent.com/rockscy/solo-skills/main/install.sh
 | [standup-solo](skills/standup-solo/SKILL.md) | 5 分钟单兵站会：交付 / 阻塞 / 今日头号任务 |
 | [email-customer](skills/email-customer/SKILL.md) | 礼貌但坚定地回复退款、范围蔓延、投诉 |
 | [postmortem-solo](skills/postmortem-solo/SKILL.md) | ≤350 字、不归罪的复盘模板 |
-
-每个 `SKILL.md` 同时包含英文和中文段落，所以你用中文还是英文描述场景，技能都能正确触发。
 
 ---
 
@@ -94,8 +90,7 @@ Claude 会读取 `SKILL.md`、套用框架、按指定格式输出。
 1. **边界优先。** 每个技能都先写 *何时不要用*。错的技能比不用还糟。
 2. **一句胜过一段。** 输出格式强制简洁。
 3. **展示 input → output。** 每个技能都有具体示例，不是空谈。
-4. **双语内容。** 每个 skill 都有平行的中文段落。
-5. **不要官腔。** 不写"很激动"，不写"依据我们的政策"，不靠 emoji 装饰。
+4. **不要官腔。** 不写"很激动"，不写"依据我们的政策"，不靠 emoji 装饰。
 
 ---
 
@@ -106,7 +101,6 @@ Claude 会读取 `SKILL.md`、套用框架、按指定格式输出。
 - 解决单兵开发者**每月或更频繁**遇到的真实问题。
 - 必须有 "When NOT to use" 段落（强制要求）。
 - 至少一个 worked input → output 示例。
-- 中英双语。
 - 输出格式具体（表格、结构化文本、固定段落）——不要 "be helpful" 玄学。
 
 ---

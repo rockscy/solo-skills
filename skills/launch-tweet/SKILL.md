@@ -51,7 +51,7 @@ Put the link at the end of the single tweet, or in the **last** tweet of the thr
 ```
 solo-skills — a Claude Code skills pack for people who ship alone.
 
-7 skills for the things solo devs actually do daily: launch tweets, customer emails, postmortems, decision frameworks. Bilingual EN/中文. MIT.
+7 skills for the things solo devs actually do daily: launch tweets, customer emails, postmortems, decision frameworks. MIT.
 
 github.com/<you>/solo-skills
 ```
@@ -70,7 +70,7 @@ solo-skills assumes you don't. Each skill is for tasks you usually do solo and b
 - Postmortems
 - Roadmap decisions
 
-3/ One-line install. 7 skills. Bilingual EN / 中文.
+3/ One-line install. 7 skills.
 
 Each comes with a "When NOT to use" section, because force-applying a framework is how solo devs waste a Saturday.
 

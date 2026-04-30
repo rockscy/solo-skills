@@ -4,7 +4,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#skills)
-[![Bilingual](https://img.shields.io/badge/EN-中文-purple.svg)](README.zh.md)
 
 English | [简体中文](README.zh.md)
 
@@ -27,7 +26,6 @@ Most skill packs assume you have a team. **This one assumes you don't.**
 | | Most skill packs | solo-skills |
 |---|---|---|
 | Audience | "Real engineers" (broad) | Solo founders, indie devs |
-| Language | English-only | EN + 中文 (every skill) |
 | Boundaries | "Use when…" only | "Use when…" **AND "Do NOT use when…"** |
 | Examples | Often abstract | Worked input → output for every skill |
 | Install | Manual copy | One-line `curl \| bash` |
@@ -47,8 +45,6 @@ The **"Do NOT use when…"** section is the core differentiator. Force-applying 
 | [standup-solo](skills/standup-solo/SKILL.md) | 5-minute personal standup: shipped / blocked / today's #1. |
 | [email-customer](skills/email-customer/SKILL.md) | Polite-but-firm reply to refunds, scope creep, complaints. |
 | [postmortem-solo](skills/postmortem-solo/SKILL.md) | ≤350-word blame-free postmortem after a missed deadline or outage. |
-
-Every `SKILL.md` ships with both English and Chinese sections, so the skill works the same regardless of which language you describe the situation in.
 
 ---
 
@@ -94,8 +90,7 @@ Claude reads `SKILL.md`, applies the framework, and responds in the prescribed f
 1. **Boundaries first.** Every skill leads with *when not to use*. Wrong skill > no skill.
 2. **One sentence beats one paragraph.** Output formats enforce brevity.
 3. **Show input → output.** Every skill includes a worked example, not just guidelines.
-4. **Bilingual content.** Every skill has parallel Chinese sections for non-English-first devs.
-5. **No corporate voice.** No "I'm excited", no "per our policy", no emoji decoration.
+4. **No corporate voice.** No "I'm excited", no "per our policy", no emoji decoration.
 
 ---
 
@@ -106,7 +101,6 @@ PRs welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md). The bar:
 - Skill solves a real problem a solo dev hits **monthly or more often**.
 - Has a "When NOT to use" section. (Hard requirement.)
 - Has at least one worked input → output example.
-- Bilingual EN + 中文.
 - Output format is concrete (table, structured text, fixed sections) — no "be helpful" vibes.
 
 ---
